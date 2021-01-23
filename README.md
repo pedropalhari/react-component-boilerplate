@@ -13,6 +13,10 @@ _`microbundler` is currently throwing some warnings on React v17, the bundle is 
 
 - `yarn add <GIT_REPO_URL>`
 
+## To update the component:
+
+- `yarn add --check-files <GIT_REPO_URL>`
+
 ## To develop a component:
 
 - Rename it in `package.json`
@@ -25,5 +29,6 @@ _`microbundler` is currently throwing some warnings on React v17, the bundle is 
 
 ## To publish
 
+- Increase the version in `package.json`.
 - `yarn build:release`
   - It will generate a `dist` folder with your code.
