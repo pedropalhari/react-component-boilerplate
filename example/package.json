@@ -1,5 +1,8 @@
 {
-  "name": "react-component-boilerplate",
+  "name": "react-component-boilerplate-example",
+  "author": {
+    "name": "Pedro Palhari"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,20 +13,16 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
-    "component-library": "link:./dist",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "typescript": "^4.0.3",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "component-library": "link:../dist-dev"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.modern.js",
-  "source": "src/index.tsx",
   "scripts": {
-    "build": "rimraf dist-dev && microbundle --no-compress --format modern,cjs -o dist-dev/index.js",
-    "start": "rimraf dist-dev && microbundle watch --no-compress --format modern,cjs -o dist-dev/index.js",
-    "build:prod": "rimraf dist && microbundle watch --no-compress --format modern,cjs",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -44,9 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "microbundle": "0.13",
-    "rimraf": "^3.0.2"
   }
 }
