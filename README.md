@@ -19,10 +19,14 @@ _`microbundler` is currently throwing some warnings on React v17, the bundle is 
 
 ## To develop a component:
 
+- `npx degit https://github.com/pedropalhari/react-component-boilerplate.git COMPONENT_NAME`
+
+- `cd COMPONENT_NAME`
 - Rename it in `package.json`
 - Run `yarn`
 - Run `yarn start`
 
+On another tab:
 - Go to `example`
 - Run `yarn`
 - Run `yarn start` and start developing your component.
