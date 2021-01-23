@@ -1,3 +1,3 @@
 export function Component() {
-  return <div>My Component</div>;
+  return <div>My Component Library</div>;
 }

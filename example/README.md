@@ -1,9 +1,6 @@
 # This is a default Create React App with a symlink to the Component, you must build the component before running `yarn start` here.
 
-The component is built on two folders, `dist-dev` and `dist`.
-
-- `dist-dev` is for development and it's used as a symlink here. `dist-dev` is also added to the `.gitignore`.
-- `dist` is for distribution, you can run `yarn build:prod` to generate it and it goes to the github. It's used on installation.
+## Check the `README.md` of the root folder.
 
 # Getting Started with Create React App
 
