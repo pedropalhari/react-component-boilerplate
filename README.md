@@ -7,6 +7,8 @@ The component is built on two folders, `dist-dev` and `dist`.
 - `dist-dev` is for development and it's used as a symlink here. `dist-dev` is also added to the `.gitignore`.
 - `dist` is for distribution, you can run `yarn build:prod` to generate it and it goes to the github. It's used on installation.
 
+_`microbundler` is currently throwing some warnings on React v17, the bundle is correct nonetheless._
+
 ## To install the component:
 
 - `yarn add <GIT_REPO_URL>`

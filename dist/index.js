@@ -2,7 +2,7 @@ var jsxRuntime = require('react/jsx-runtime');
 
 function Component() {
   return jsxRuntime.jsx("div", {
-    children: "My Component"
+    children: "My Component Library"
   }, void 0);
 }
 
