@@ -27,7 +27,7 @@
   "scripts": {
     "build": "rimraf dist-dev && microbundle --no-compress --format modern,cjs -o dist-dev/index.js",
     "start": "rimraf dist-dev && microbundle watch --no-compress --format modern,cjs -o dist-dev/index.js",
-    "build:prod": "rimraf dist && microbundle watch --no-compress --format modern,cjs",
+    "build:prod": "rimraf dist && microbundle --no-compress --format modern,cjs",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/index.tsx"],"sourcesContent":["export function Component() {\n  return <div>My Component</div>;\n}\n"],"names":["Component","_jsx"],"mappings":";;SAAgBA;AACd,SAAOC;;YAAP;AACD;;;;"}
